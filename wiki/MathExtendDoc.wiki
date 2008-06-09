@@ -11,31 +11,45 @@ Welcome to the documentation of math-extend. Here you will find all you need to 
 *Math native object extensions*
 
 
-Math.sum(Array) => Number
+Math.sum(Array) -> Number
 
 Returns the sum of an array of numbers. Gets an array of number, and returns a number.
 
 
-Math.mean(Array) => Number
+Math.mean(Array) -> Number
 
 Returns the mean value of an array of numbers. Gets an array of number, and returns a number.
 
 
-Math.median(Array) => Number
+Math.median(Array) -> Number
 
 Returns the median value of an array of numbers. Gets an array of number, and returns a number.
 
 
-Math.stdDev(Array) => Number
+Math.stdDev(Array) -> Number
 
 Returns the standard deviation value of an array of numbers. Gets an array of number, and returns a number.
 
 
-Math.baseLog(Number [, Base]) => Number
+Math.baseLog(Number [, Base]) -> Number
 
 Returns the log(Number) with a given base. Default base is 10 if omitted.
 
 
 *Number native class extensions*
+
+isEven() -> Boolean
+
+Returns true if Number is even, false otherwise.
+
+
+isOdd() -> Boolean
+
+Returns true if Number is odd, false otherwise.
+
+
+isInteger() -> Boolean
+
+returns true if Number is an integer, false otherwise.
 
 *Array native class extensions*
