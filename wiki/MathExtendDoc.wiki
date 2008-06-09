@@ -9,32 +9,33 @@ Welcome to the documentation of math-extend. Here you will find all you need to 
 = Details =
 
 *Math native object extensions*
-
+[[BR]]
 Math.sum(Array) => Number
 
 Returns the sum of an array of numbers. Gets an array of number, and returns a number.
-
+[[BR]]
 
 Math.mean(Array) => Number
 
 Returns the mean value of an array of numbers. Gets an array of number, and returns a number.
-
+[[BR]]
 
 Math.median(Array) => Number
 
 Returns the median value of an array of numbers. Gets an array of number, and returns a number.
-
+[[BR]]
 
 Math.stdDev(Array) => Number
 
 Returns the standard deviation value of an array of numbers. Gets an array of number, and returns a number.
-
+[[BR]]
 
 Math.baseLog(Number [, Base]) => Number
 
 Returns the log(Number) with a given base. Default base is 10 if omitted.
-
+[[BR]]
 
 *Number native class extensions*
-
+[[BR]]
 *Array native class extensions*
+[[BR]]
