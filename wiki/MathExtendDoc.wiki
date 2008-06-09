@@ -38,18 +38,29 @@ Returns the log(Number) with a given base. Default base is 10 if omitted.
 
 *Number native class extensions*
 
-isEven() -> Boolean
+Number#isEven() -> Boolean
 
 Returns true if Number is even, false otherwise.
 
 
-isOdd() -> Boolean
+Number#isOdd() -> Boolean
 
 Returns true if Number is odd, false otherwise.
 
 
-isInteger() -> Boolean
+Number#isInteger() -> Boolean
 
-returns true if Number is an integer, false otherwise.
+Returns true if Number is an integer, false otherwise.
+
 
 *Array native class extensions*
+
+
+Array#swap(firstIndex, secondIndex) -> Array
+
+Will exchange 2 values inside an array. Returns the modified array.
+
+
+Array#shuffle() -> Array
+
+Will shuffle an array. Returns the modified array.
