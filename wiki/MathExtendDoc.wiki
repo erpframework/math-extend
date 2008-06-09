@@ -3,39 +3,39 @@ math-extend documentation
 = Introduction =
 
 Welcome to the documentation of math-extend. Here you will find all you need to use it.
-<br>
+
 
 
 = Details =
 
 *Math native object extensions*
-<br>
+
+
 Math.sum(Array) => Number
 
 Returns the sum of an array of numbers. Gets an array of number, and returns a number.
-<br>
+
 
 Math.mean(Array) => Number
 
 Returns the mean value of an array of numbers. Gets an array of number, and returns a number.
-<br>
+
 
 Math.median(Array) => Number
 
 Returns the median value of an array of numbers. Gets an array of number, and returns a number.
-<br>
+
 
 Math.stdDev(Array) => Number
 
 Returns the standard deviation value of an array of numbers. Gets an array of number, and returns a number.
-<br>
+
 
 Math.baseLog(Number [, Base]) => Number
 
 Returns the log(Number) with a given base. Default base is 10 if omitted.
-<br>
+
 
 *Number native class extensions*
-<br>
+
 *Array native class extensions*
-<br>
