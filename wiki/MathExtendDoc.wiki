@@ -58,9 +58,9 @@ Returns true if Number is an integer, false otherwise.
 
 Array#swap(firstIndex, secondIndex) -> Array
 
-Will swap 2 elements inside an array. Returns the modified array.
+Swaps 2 elements inside an array. Returns the modified array.
 
 
 Array#shuffle() -> Array
 
-Will shuffle an array. Returns the modified array.
+Shuffles an array. Returns the modified array.
