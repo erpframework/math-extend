@@ -35,30 +35,36 @@ Returns the log(Number) with a given base. Default base is 10 if omitted.
 
 == Number native class extensions ==
 
-Number#isEven() -> Boolean
+isEven() -> Boolean
 
 Returns true if Number is even, false otherwise.
 ----
 
-Number#isOdd() -> Boolean
+isOdd() -> Boolean
 
 Returns true if Number is odd, false otherwise.
 ----
 
-Number#isInteger() -> Boolean
+isInteger() -> Boolean
 
 Returns true if Number is an integer, false otherwise.
+----
+
+isNatural([excludeZero]) -> Boolean
+
+Returns true if Number is an integer greater than or equal to zero, false otherwise.
+Optional boolean parameter excludeZero is self-explanatory!
 ----
 
 == Array native class extensions ==
 
 
-Array#swap(firstIndex, secondIndex) -> Array
+swap(firstIndex, secondIndex) -> Array
 
 Swaps 2 elements inside an array. Returns the modified array.
 ----
 
-Array#shuffle() -> Array
+shuffle() -> Array
 
 Shuffles an array. Returns the modified array.
 ----
