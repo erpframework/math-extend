@@ -1,14 +1,10 @@
-math-extend documentation
-
-= Introduction =
+= math-extend =
 
 Welcome to the documentation of math-extend. Here you will find all you need to use it.
 
 
 
-= Details =
-
-*Math native object extensions*
+== Math native object extensions ==
 
 
 Math.sum(Array) -> Number
@@ -36,7 +32,7 @@ Math.baseLog(Number [, Base]) -> Number
 Returns the log(Number) with a given base. Default base is 10 if omitted.
 ----
 
-*Number native class extensions*
+== Number native class extensions ==
 
 Number#isEven() -> Boolean
 
@@ -53,7 +49,7 @@ Number#isInteger() -> Boolean
 Returns true if Number is an integer, false otherwise.
 ----
 
-*Array native class extensions*
+== Array native class extensions ==
 
 
 Array#swap(firstIndex, secondIndex) -> Array
