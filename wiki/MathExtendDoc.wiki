@@ -50,10 +50,10 @@ isInteger() -> Boolean
 Returns true if Number is an integer, false otherwise.
 ----
 
-isNatural([excludeZero]) -> Boolean
+isNatural([ excludeZero ]) -> Boolean
 
 Returns true if Number is an integer greater than or equal to zero, false otherwise.
-Optional boolean parameter excludeZero is self-explanatory!
+If optional parameter excludeZero is set to true, then the test with number zero(0) will return false.
 ----
 
 == Array native class extensions ==
