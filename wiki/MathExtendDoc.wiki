@@ -1,3 +1,4 @@
+#labels Featured
 = math-extend =
 
 Welcome to the documentation of math-extend. Here you will find all you need to use it.
