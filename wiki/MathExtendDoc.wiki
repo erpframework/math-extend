@@ -58,7 +58,7 @@ If optional parameter excludeZero is set to true, then the test with number zero
 
 isPrime() -> Boolean
 
-Returns true if Number is a prime, false otherwise. If tested number is greater than 1e+16, test will always return false because of JavaScript limitations(tested on Firefox 3.x).
+Returns true if Number is a prime, false otherwise. If tested number is greater than 1e+16, test will always return false because of javascript limitations(tested on Firefox 3.x).
 
 ----
 
