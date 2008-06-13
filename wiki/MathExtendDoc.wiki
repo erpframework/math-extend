@@ -28,7 +28,7 @@ Math.stdDev(Array) -> Number
 Returns the standard deviation value of an array of numbers. Gets an array of numbers, and returns a number.
 ----
 
-Math.baseLog(Number [, Base]) -> Number
+Math.baseLog(Number [, Base = 10]) -> Number
 
 Returns the log(Number) with a given base. Default base is 10 if omitted.
 ----
@@ -50,7 +50,7 @@ isInteger() -> Boolean
 Returns true if Number is an integer, false otherwise.
 ----
 
-isNatural([ excludeZero ]) -> Boolean
+isNatural([ excludeZero = false ]) -> Boolean
 
 Returns true if Number is an integer greater than or equal to zero, false otherwise.
 If optional parameter excludeZero is set to true, then the test with number zero(0) will return false.
