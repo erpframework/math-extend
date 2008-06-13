@@ -7,57 +7,66 @@ Welcome to the documentation of math-extend. Here you will find all you need to 
 
 == Math native object extensions ==
 
-
+{{{
 Math.sum(Array) -> Number
-
+}}}
 Returns the sum of an array of numbers. Gets an array of numbers, and returns a number.
 ----
 
+{{{
 Math.mean(Array) -> Number
-
+}}}
 Returns the mean value of an array of numbers. Gets an array of numbers, and returns a number.
 ----
 
+{{{
 Math.median(Array) -> Number
-
+}}}
 Returns the median value of an array of numbers. Gets an array of numbers, and returns a number.
 ----
 
+{{{
 Math.stdDev(Array) -> Number
-
+}}}
 Returns the standard deviation value of an array of numbers. Gets an array of numbers, and returns a number.
 ----
 
+{{{
 Math.baseLog(Number [, Base = 10]) -> Number
-
+}}}
 Returns the log(Number) with a given base. Default base is 10 if omitted.
 ----
 
 == Number native class extensions ==
 
+{{{
 isEven() -> Boolean
-
+}}}
 Returns true if Number is even, false otherwise.
 ----
 
+{{{
 isOdd() -> Boolean
-
+}}}
 Returns true if Number is odd, false otherwise.
 ----
 
+{{{
 isInteger() -> Boolean
-
+}}}
 Returns true if Number is an integer, false otherwise.
 ----
 
+{{{
 isNatural([ excludeZero = false ]) -> Boolean
-
+}}}
 Returns true if Number is an integer greater than or equal to zero, false otherwise.
 If optional parameter excludeZero is set to true, then the test with number zero(0) will return false.
 ----
 
+{{{
 isPrime() -> Boolean
-
+}}}
 Returns true if Number is a prime, false otherwise. If tested number is greater than 1e+16, test will always return false because of javascript limitations(tested on Firefox 3.x).
 
 ----
@@ -65,12 +74,14 @@ Returns true if Number is a prime, false otherwise. If tested number is greater 
 == Array native class extensions ==
 
 
+{{{
 swap(firstIndex, secondIndex) -> Array
-
+}}}
 Swaps 2 elements inside an array. Returns the modified array.
 ----
 
+{{{
 shuffle() -> Array
-
+}}}
 Shuffles an array. Returns the modified array.
 ----
