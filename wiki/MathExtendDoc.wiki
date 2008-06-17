@@ -42,6 +42,13 @@ Math.baseLog(Number [, Base = 10]) -> Number
 Returns the log(Number) with a given base. Default base is 10 if omitted.
 ----
 
+*Math.factorize*
+{{{
+Math.factorize(Number) -> Array
+}}}
+Returns the unique prime factorization of a Number. Gets a number, and returns an array of numbers.
+----
+
 == Number native class extensions ==
 
 *isEven*
