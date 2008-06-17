@@ -46,7 +46,7 @@ Returns the log(Number) with a given base. Default base is 10 if omitted.
 {{{
 Math.factorize(Number) -> Array
 }}}
-Returns the unique prime factorization of a Number. Gets a number, and returns an array of numbers.
+Returns the unique prime factorization of a Number. Gets a positive integer, and returns an array of prime numbers.
 ----
 
 == Number native class extensions ==
