@@ -67,9 +67,10 @@ Returns true if Number is odd, false otherwise.
 
 *isInteger*
 {{{
-isInteger() -> Boolean
+isInteger([ excludeZero = false ]) -> Boolean
 }}}
 Returns true if Number is an integer, false otherwise.
+If optional parameter excludeZero is set to true, then the test with number zero(0) will return false.
 ----
 
 *isNatural*
