@@ -70,7 +70,7 @@ Returns true if Number is odd, false otherwise.
 isInteger([ excludeZero = false ]) -> Boolean
 }}}
 Returns true if Number is an integer, false otherwise.
-If optional parameter excludeZero is set to true, then the test with number zero(0) will return false.
+If optional parameter excludeZero is set to true, test with number zero(0) will return false.
 ----
 
 *isNatural*
@@ -78,7 +78,7 @@ If optional parameter excludeZero is set to true, then the test with number zero
 isNatural([ excludeZero = false ]) -> Boolean
 }}}
 Returns true if Number is an integer greater than or equal to zero, false otherwise.
-If optional parameter excludeZero is set to true, then the test with number zero(0) will return false.
+If optional parameter excludeZero is set to true, test with number zero(0) will return false.
 ----
 
 *isPrime*
