@@ -39,14 +39,35 @@ Returns the standard deviation value of an array of numbers. Gets an array of nu
 {{{
 Math.baseLog(Number [, Base = 10]) -> Number
 }}}
-Returns the log(Number) with a given base. Default base is 10 if omitted.
+Returns log(Number) with a given base. Default base is 10 if omitted.
 ----
 
 *Math.factorize*
 {{{
 Math.factorize(Number) -> Array
 }}}
-Returns the unique prime factorization of a Number. Gets a positive integer, and returns an array of prime numbers.
+Returns the unique prime factorization of a number. Gets a positive integer, and returns an array of prime numbers.
+----
+
+*Math.sinh*
+{{{
+Math.sinh(Number) -> Number
+}}}
+Returns the hyperbolic sine of a number. Gets a number, and returns a number.
+----
+
+*Math.cosh*
+{{{
+Math.cosh(Number) -> Number
+}}}
+Returns the hyperbolic cosine of a number. Gets a number, and returns a number.
+----
+
+*Math.tanh*
+{{{
+Math.tanh(Number) -> Number
+}}}
+Returns the hyperbolic tangent of a number. Gets a number, and returns a number.
 ----
 
 == Number native class extensions ==
