@@ -7,11 +7,25 @@ Welcome to the documentation of math-extend. Here you will find all you need to 
 
 == Math native object extensions ==
 
-*Math.sum*
+*Math.baseLog*
 {{{
-Math.sum(Array) -> Number
+Math.baseLog(Number [, Base = 10]) -> Number
 }}}
-Returns the sum of an array of numbers. Gets an array of numbers, and returns a number.
+Returns log(Number) with a given base. Default base is 10 if omitted.
+----
+
+*Math.cosh*
+{{{
+Math.cosh(Number) -> Number
+}}}
+Returns the hyperbolic cosine of a number. Gets a number, and returns a number.
+----
+
+*Math.factorize*
+{{{
+Math.factorize(Number) -> Array
+}}}
+Returns the unique prime factorization of a number. Gets a positive integer, and returns an array of prime numbers.
 ----
 
 *Math.mean*
@@ -28,27 +42,6 @@ Math.median(Array) -> Number
 Returns the median value of an array of numbers. Gets an array of numbers, and returns a number.
 ----
 
-*Math.stdDev*
-{{{
-Math.stdDev(Array) -> Number
-}}}
-Returns the standard deviation value of an array of numbers. Gets an array of numbers, and returns a number.
-----
-
-*Math.baseLog*
-{{{
-Math.baseLog(Number [, Base = 10]) -> Number
-}}}
-Returns log(Number) with a given base. Default base is 10 if omitted.
-----
-
-*Math.factorize*
-{{{
-Math.factorize(Number) -> Array
-}}}
-Returns the unique prime factorization of a number. Gets a positive integer, and returns an array of prime numbers.
-----
-
 *Math.sinh*
 {{{
 Math.sinh(Number) -> Number
@@ -56,11 +49,18 @@ Math.sinh(Number) -> Number
 Returns the hyperbolic sine of a number. Gets a number, and returns a number.
 ----
 
-*Math.cosh*
+*Math.stdDev*
 {{{
-Math.cosh(Number) -> Number
+Math.stdDev(Array) -> Number
 }}}
-Returns the hyperbolic cosine of a number. Gets a number, and returns a number.
+Returns the standard deviation value of an array of numbers. Gets an array of numbers, and returns a number.
+----
+
+*Math.sum*
+{{{
+Math.sum(Array) -> Number
+}}}
+Returns the sum of an array of numbers. Gets an array of numbers, and returns a number.
 ----
 
 *Math.tanh*
@@ -79,13 +79,6 @@ isEven() -> Boolean
 Returns true if Number is even, false otherwise.
 ----
 
-*isOdd*
-{{{
-isOdd() -> Boolean
-}}}
-Returns true if Number is odd, false otherwise.
-----
-
 *isInteger*
 {{{
 isInteger([ excludeZero = false ]) -> Boolean
@@ -102,6 +95,13 @@ Returns true if Number is an integer greater than or equal to zero, false otherw
 If optional parameter excludeZero is set to true, test with number zero(0) will return false.
 ----
 
+*isOdd*
+{{{
+isOdd() -> Boolean
+}}}
+Returns true if Number is odd, false otherwise.
+----
+
 *isPrime*
 {{{
 isPrime() -> Boolean
@@ -113,16 +113,16 @@ Returns true if Number is a prime, false otherwise. If tested number is greater 
 == Array native class extensions ==
 
 
-*swap*
-{{{
-swap(firstIndex, secondIndex) -> Array
-}}}
-Swaps 2 elements inside an array. Returns the modified array.
-----
-
 *shuffle*
 {{{
 shuffle() -> Array
 }}}
 Shuffles an array. Returns the modified array.
+----
+
+*swap*
+{{{
+swap(firstIndex, secondIndex) -> Array
+}}}
+Swaps 2 elements inside an array. Returns the modified array.
 ----
