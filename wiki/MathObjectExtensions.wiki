@@ -62,3 +62,5 @@ Math.tanh(Number) -> Number
 }}}
 Returns the hyperbolic tangent of a number. Gets a number, and returns a number.
 ----
+
+[MathExtendDoc back to main wiki page]
