@@ -1,0 +1,16 @@
+== Array native class extensions ==
+
+
+*shuffle*
+{{{
+shuffle() -> Array
+}}}
+Shuffles an array. Returns the modified array.
+----
+
+*swap*
+{{{
+swap(firstIndex, secondIndex) -> Array
+}}}
+Swaps 2 elements inside an array. Returns the modified array.
+----
