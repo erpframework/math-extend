@@ -1,0 +1,39 @@
+== Number native class extensions ==
+
+*isEven*
+{{{
+isEven() -> Boolean
+}}}
+Returns true if Number is even, false otherwise.
+----
+
+*isInteger*
+{{{
+isInteger([ excludeZero = false ]) -> Boolean
+}}}
+Returns true if Number is an integer, false otherwise.
+If optional parameter excludeZero is set to true, test with number zero(0) will return false.
+----
+
+*isNatural*
+{{{
+isNatural([ excludeZero = false ]) -> Boolean
+}}}
+Returns true if Number is an integer greater than or equal to zero, false otherwise.
+If optional parameter excludeZero is set to true, test with number zero(0) will return false.
+----
+
+*isOdd*
+{{{
+isOdd() -> Boolean
+}}}
+Returns true if Number is odd, false otherwise.
+----
+
+*isPrime*
+{{{
+isPrime() -> Boolean
+}}}
+Returns true if Number is a prime, false otherwise. If tested number is greater than 1e+16, test will always return false because of javascript limitations(tested on Firefox 3.x).
+
+----
