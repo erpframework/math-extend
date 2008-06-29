@@ -63,7 +63,9 @@ Math.tanh(Number) -> Number
 Returns the hyperbolic tangent of a number. Gets a number, and returns a number.
 ----
 
-The Javascript Math Object also offers great native functions! They can be found [http://www.w3schools.com/jsref/jsref_obj_math.asp here].
+*Math native functions*
+
+The Javascript Math Object also offers great native functions! They can be found at [http://www.w3schools.com/jsref/jsref_obj_math.asp www.w3schools.com].
 
 ----
 
