@@ -14,3 +14,5 @@ swap(firstIndex, secondIndex) -> Array
 }}}
 Swaps 2 elements inside an array. Returns the modified array.
 ----
+
+[MathExtendDoc back to main wiki page]
