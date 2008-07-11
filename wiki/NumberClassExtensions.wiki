@@ -38,6 +38,7 @@ Returns true if Number is 'not a number' (NaN), false otherwise. An instance-met
 
 {{{
 (435632).isNaN()        //-> false
+(0).isNaN()             //-> false
 Number('34').isNaN()    //-> false
 Number('Hello').isNaN() //-> true
 }}}
