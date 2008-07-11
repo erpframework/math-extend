@@ -15,12 +15,26 @@ Returns true if Number is an integer, false otherwise.
 If optional parameter excludeZero is set to true, test with number zero(0) will return false.
 ----
 
+*isNaN*
+{{{
+isNaN() -> Boolean
+}}}
+Returns true if Number is 'not a number' (NaN), false otherwise. An instance-method version of native [http://www.w3schools.com/jsref/jsref_isNaN.asp isNaN()].
+----
+
 *isNatural*
 {{{
 isNatural([ excludeZero = false ]) -> Boolean
 }}}
-Returns true if Number is an integer greater than or equal to zero, false otherwise.
+Returns true if Number is an integer greater than or equal to zero(0), false otherwise.
 If optional parameter excludeZero is set to true, test with number zero(0) will return false.
+----
+
+*isNull*
+{{{
+isNull() -> Boolean
+}}}
+Returns true if Number is equal to zero(0), false otherwise.
 ----
 
 *isOdd*
