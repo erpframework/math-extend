@@ -3,9 +3,9 @@
 
 *shuffle*
 {{{
-shuffle() -> Array
+shuffle([inline = true]) -> Array
 }}}
-Shuffles an array. Returns the modified array.
+Returns a shuffled version of the array. By default, directly shuffles the original. If inline is set to false, uses a clone of the original array.
 
 {{{
 [1, 2, 3, 4, 5].shuffle()  //->  [4, 2, 1, 5, 3]
