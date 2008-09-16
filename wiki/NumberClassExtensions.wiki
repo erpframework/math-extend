@@ -1,5 +1,30 @@
 == Number native class extensions ==
 
+*compute*
+{{{
+compute(function) -> custom
+}}}
+Gets a custom function, having Number has its only parameter, and returns its result.
+
+{{{
+(123).compute(function(nb) {
+        // do any custom stuff here ...
+        return nb * 2;
+})    //-> 246
+
+(289341211).compute(function(nb) {
+        return nb.isPrime();
+});   //-> true
+
+// hint for advanced Prototype users: the 'this' reference is available for an utility like Function#bind:
+
+(100).compute(function(nb) {
+        return nb + this.value;
+}.bind({value: 10}));   //-> 110
+
+}}}
+----
+
 *isEven*
 {{{
 isEven() -> Boolean
