@@ -4,7 +4,7 @@
 {{{
 compute(function) -> custom
 }}}
-Gets a custom function, having Number has its only parameter, and returns its result.
+Gets a custom function, having Number as its only parameter, and returns its result.
 
 {{{
 (123).compute(function(nb) {
