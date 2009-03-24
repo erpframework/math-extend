@@ -80,7 +80,7 @@ Object.extend(Math, {
     	var sqrtOfN = this.sqrt(n);
     	
         for(var i = 2; i <= sqrtOfN; i++)
-            if(i.isPrime() && (n / i).isInteger())
+            if((n % i).isNull() && i.isPrime())
                 return [i, this.factorize(n / i)].flatten();
     },
     
@@ -121,7 +121,7 @@ Object.extend(Number.prototype, {
     isInteger: function(excludeZero) {
     	// if this == NaN ...
     	if(this.isNaN()) return false;
-    	if(excludeZero && this == 0) return false;
+    	if(excludeZero && this.isNull()) return false;
     	
         return (this - this.floor()) ? false : true;
     },
@@ -137,19 +137,18 @@ Object.extend(Number.prototype, {
 	if(!this.isNatural(true) || sqrtOfThis.isInteger()) {
 	    return false;
 	}
-	if(somePrimes.length != somePrimes.without(this).length) {
-	    return true;
-	}
+	if(somePrimes.include(this)) return true;
+	
 	for(var i = 0, len = somePrimes.length; i < len; i++) {
 	    if(somePrimes[i] > sqrtOfThis) {
 		return true;
 	    }
-	    if(this % somePrimes[i] == 0) {
+	    if((this % somePrimes[i]).isNull()) {
 		return false;
 	    }
 	}
 	for(var i = 103; i <= sqrtOfThis; i += 2) {
-	    if(this % i == 0) {
+	    if((this % i).isNull()) {
 		return false;
 	    }
 	}
@@ -176,7 +175,10 @@ Object.extend(Array.prototype, {
         var list = (inline != false ? this : this.clone());
         
         for(var i = 0, len = list.length * (times || 4); i < len; i++) {
-            list.swap((Math.random() * list.length).floor(), (Math.random() * list.length).floor());
+            list.swap(
+		(Math.random() * list.length).floor(),
+		(Math.random() * list.length).floor()
+	    );
         }
         
         return list;
