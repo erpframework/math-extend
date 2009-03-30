@@ -46,7 +46,7 @@ Returns the hyperbolic sine of a number. Gets a number, and returns a number.
 {{{
 Math.stdDev(Array) -> Number
 }}}
-Returns the standard deviation value of an array of numbers. (The standard deviation represents the square root of the variance) Gets an array of numbers, and returns a number.
+Returns the standard deviation value of an array of numbers(The standard deviation represents the square root of the variance). Gets an array of numbers, and returns a number.
 ----
 
 *Math.sum*
