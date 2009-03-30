@@ -46,7 +46,7 @@ Returns the hyperbolic sine of a number. Gets a number, and returns a number.
 {{{
 Math.stdDev(Array) -> Number
 }}}
-Returns the standard deviation value of an array of numbers. Gets an array of numbers, and returns a number.
+Returns the standard deviation value of an array of numbers. (The standard deviation represents the square root of the variance) Gets an array of numbers, and returns a number.
 ----
 
 *Math.sum*
@@ -61,6 +61,13 @@ Returns the sum of an array of numbers. Gets an array of numbers, and returns a 
 Math.tanh(Number) -> Number
 }}}
 Returns the hyperbolic tangent of a number. Gets a number, and returns a number.
+----
+
+*Math.variance*
+{{{
+Math.variance(Array) -> Number
+}}}
+Returns the variance value of an array of numbers. Gets an array of numbers, and returns a number.
 ----
 
 *Math native functions*
